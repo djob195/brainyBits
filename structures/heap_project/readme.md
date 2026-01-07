@@ -17,7 +17,7 @@ A Python implementation of a **fixed-size binary heap** (max-heap or min-heap) w
 ## Prerequisites
 
 A `Python` environment is required to run this project.  
-You can set it up by following the [tutorial](https://github.com/djob195/brainyBits/blob/master/readme.md) provided in the root of this repository.
+You can set it up by following the [tutorial](https://github.com/djob195/brainyBits/blob/master/readme.Md) provided in the root of this repository.
 
 ## Project Setup
 
