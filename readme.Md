@@ -30,7 +30,7 @@ All code inside the `structures/` folder is automatically available inside the D
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-No Python installation is required locally.
+No local Python installation is required.
 
 ---
 
@@ -43,5 +43,27 @@ From the root of the repository:
 ```bash
 docker-compose build
 ```
+This will create a lightweight Python 3.11 container called: **brainybits-python-enviroment**.
 
-This will create a lightweight Python 3.11 container ready to run your code.
+### 2. Start the Container
+
+```bash
+docker-compose up -d
+```
+
+The container runs in daemon mode (background). To ensure it is running correctly, you can verify it with the following command:
+
+```bash
+docker ps
+```
+This command will display a list of all running containers.
+
+### 3. run a command inside a running containe
+
+```bash
+docker exec -it python-enviroment-container sh
+```
+
+> Note: if you use windows, does not forget command **winpty** before command `docker`.
+
+After executing this command, you will be inside the container, within a Python environment. From there, you will be able to execute and explore all the projects included in this repository.

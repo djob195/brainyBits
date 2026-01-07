@@ -1,9 +1,9 @@
 version: "3.9"
 
 services:
-  heap-python:
+  python-enviroment:
     build: .
-    container_name: heap-python-container
+    container_name: python-enviroment-container
     volumes:
-      - ./structures:/app
+      - .:/app
     tty: true
