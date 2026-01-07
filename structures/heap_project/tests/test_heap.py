@@ -41,6 +41,7 @@ class TestHeap(unittest.TestCase):
         heap = Heap(length=2)
         heap.push(1)
         heap.push(2)
+        heap.push(3)
         self.assertTrue(heap.is_full())
         with self.assertRaises(Exception) as context:
             heap.push(3)
