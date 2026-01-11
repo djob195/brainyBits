@@ -1,6 +1,5 @@
 # Overview
-This project is a SMS Pumping Simulator built with FastAPI and Python.
-Its purpose is to simulate large-scale OTP SMS attacks in order to:
+This project is a SMS Pumping Simulator built with FastAPI and Python. Its purpose is to simulate large-scale OTP SMS attacks for educational and research purposes, as documented and explained in more detail on [my blog](https://djob195.github.io/posts/sms-pumping/), in order to:
 
 * Analyze economic impact (billing)
 * Visualize firewall and traffic metrics
