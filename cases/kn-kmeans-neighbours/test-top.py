@@ -6,6 +6,7 @@ from shapely.geometry import shape, Point
 from utils.geo import haversine_distance, bearing
 import heapq
 import time
+from generate_chart import generate_chart
 
 BEARING_STEP = 5
 
@@ -95,3 +96,5 @@ for _ in range(3):
 end = time.perf_counter()
 
 print(f"Get top 3 on {end - start:.6f} seconds")
+
+generate_chart(data_customer, warehouse)

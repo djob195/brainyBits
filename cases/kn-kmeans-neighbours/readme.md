@@ -119,7 +119,9 @@ python generate_customers.py
 
 ## 📊 Project Results
 
-As a result of this project, a random reference point is generated, after which the system identifies the closest customers measured in meters. Additionally, the execution time required to produce this result is displayed, reflecting the performance of the algorithm while analyzing a total of 5,000 customer records.
+As a result of this project, a random reference point is generated, after which the system identifies the closest customers measured in meters. Additionally, the execution time required to produce this result is displayed, reflecting the performance of the algorithm while analyzing a total of 5,000 customer records (You could see the result on the image that was generated after the script, `./distance_increment.png`)
+
+![example script](assets/distance_example.png)
 
 ## Map visualization
 
