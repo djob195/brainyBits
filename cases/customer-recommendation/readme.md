@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-This project consists of a set of scripts designed to simulate and analyze the geographic distribution of clients within **Guatemala City**.
+This project was published on [my blog](https://djob195.github.io/posts/from-location-to-recommendation/) and consists of a collection of scripts designed to simulate and analyze the geographic distribution of customers within **Guatemala City**.
 
 The system generates **5,000 random clients** distributed across different **city zones**, where each zone is assigned to a specific **warehouse (fixed point)**. Based on this data, the project performs **client clustering** and **proximity analysis** using **bearing (direction)** and **distance** calculations.
 
