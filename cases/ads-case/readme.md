@@ -1,5 +1,5 @@
 # ADS Banner Simulator API
-This project is an Ads Banner Simulator that exposes an API built with FastAPI, designed to emulate the lifecycle of a digital advertising banner. It simulates impressions, user interactions (clicks), and generates measurable statistics to analyze traffic, conversion rates, and geographic distribution.
+This project is an Ads Banner Simulator featured on my blog. It also exposes an API built with FastAPI, designed to emulate the lifecycle of a digital advertising banner. The system simulates ad impressions and user interactions (clicks), generating measurable statistics to analyze traffic patterns, conversion rates, and geographic distribution.
 
 The system includes a mock firewall layer that simulates:
 
